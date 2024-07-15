@@ -6,7 +6,7 @@ import sseclient
 
 app = Flask(__name__)
 
-OPENAI_API_KEY = "sk-cxh4h08XfQissuqa0819E32a8980480eAa003eD4C30f3a89"
+OPENAI_API_KEY = ""
 OPENAI_API_BASE = "https://aihubmix.com/v1"
 
 client = OpenAI(api_key=OPENAI_API_KEY, base_url=OPENAI_API_BASE)
